@@ -25,7 +25,7 @@ export default class Ground extends BaseMesh {
   }
 
   generateGeometry(): THREE.PlaneGeometry {
-    return new THREE.PlaneGeometry((this.groundSize * 4) / 3, this.groundSize)
+    return new THREE.PlaneGeometry(this.groundSize * 2, 34)
   }
 
   generateMaterial(): THREE.MeshBasicMaterial {

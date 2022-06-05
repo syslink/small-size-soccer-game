@@ -17,7 +17,7 @@ import Ball from './Ball.vue'
 import Player from './Player.vue'
 import Goal from './Goal.vue'
 
-export const FRAUSTUM_SIZE = 60
+export const FRAUSTUM_SIZE = 105
 
 @Component({
   name: 'Scene',

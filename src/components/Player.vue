@@ -40,7 +40,7 @@ export default class Player extends BaseMesh {
 
   configMesh() {
     this.mesh.castShadow = true
-    this.mesh.position.set(10, this.radius, 0)
+    this.mesh.position.set(20, this.radius, 0)
   }
 }
 </script>

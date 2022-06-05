@@ -31,7 +31,7 @@ export default class Goal extends BaseMesh {
   }
 
   get posX() {
-    return this.isLeftSide ? -3.1 * this.size : 3.1 * this.size
+    return this.isLeftSide ? -4.6 * this.size : 4.6 * this.size
   }
 
   mounted() {
